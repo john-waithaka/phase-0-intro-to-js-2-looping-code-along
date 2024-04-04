@@ -49,11 +49,11 @@ function countdown() {
 
 
 //test 3 - not running
-function countdown() {
-  const calledWithExactly = [];
-for (let i = 10; i <names.lenght; i--) {
-const message = "Expected countDown ${[i]} to log ${[i]} first";
-  calledWithExactly.push(message);
-  }
-return calledWithExactly;
-}
+// function countdown() {
+//   const calledWithExactly = [];
+// for (let i = 10; i <names.lenght; i--) {
+// const message = "Expected countDown ${[i]} to log ${[i]} first";
+//   calledWithExactly.push(message);
+//   }
+// return calledWithExactly;
+// }
