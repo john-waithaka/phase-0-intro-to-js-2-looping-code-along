@@ -30,12 +30,6 @@ function writeCards(names, occasion) {
 //test 2 - not passing
 // 1) invokes console.log once for each number, counting down from the number provided to zero
 
-// function countdown() {
-//   for (let i = 10; i >= 0; i--) {
-//     console.log(i);
-//   }
-// }
-
 function countdown() {
   for (let i = 10; i >= 0; i--) {
     console.log(i);
@@ -46,14 +40,10 @@ function countdown() {
 
 // test 3
 // 2) logs each number when counting down, starting from the number provided
-
-
-//test 3 - not running
-// function countdown() {
-//   const calledWithExactly = [];
-// for (let i = 10; i <names.lenght; i--) {
-// const message = "Expected countDown ${[i]} to log ${[i]} first";
-//   calledWithExactly.push(message);
-//   }
-// return calledWithExactly;
-// }
+function countDown( startingNumber ) {
+  while ( startingNumber > 0 ) {
+    console.log( startingNumber );
+    startingNumber -= 1;
+  }
+  console.log( startingNumber );
+}
